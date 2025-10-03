@@ -1,1 +1,33 @@
 
+* {
+  box-sizing: border-box; /* includes border & padding inside width */
+}
+
+
+.container {
+  display: flex;   /* put left and right side by side */
+  height: 100vh;   /* give container height so border is visible */
+}
+
+.left {
+  width: 50%;
+}
+
+.image{
+	margin-top: 35px;
+}
+
+.right {
+  width: 50%;
+}
+
+.profile{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+
+.details{
+	margin-right: 45px;
+}
